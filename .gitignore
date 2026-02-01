@@ -1,0 +1,21 @@
+# Archivos de sistema operativo (Mac/Windows/Linux)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos de logs
+*.log
+
+# Carpetas de editores de código (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias de Node (por si usas herramientas en el futuro)
+node_modules/
+package-lock.json
+
+# Archivos de entorno (por seguridad, aunque no uses .env en el frontend aun)
+.env
+.env.local
