@@ -74,12 +74,12 @@
                     </h1>
 
                     <div class="d-flex gap-3 mt-5 flex-wrap">
-                        <a href="docs/cv_William_Huacoto.pdf" target="_blank" download="CV_William_Huacoto.pdf"
+                        <a href="#contacto"
                             class="btn btn-accent px-4 py-3 shadow-accent-btn fw-bold">
-                            <i class="fas fa-file-download me-2"></i>Descargar CV
+                            <i class="fas fa-envelope me-2"></i>Escribir mensaje
                         </a>
                         <a href="https://wa.me/59163176943?text=Hola%20William,%20vengo%20de%20tu%20sitio%20web.👋"
-                            target="_blank" class="btn btn-outline-light px-4 py-3 fw-bold">
+                            target="_blank" rel="noopener noreferrer" class="btn btn-outline-light px-4 py-3 fw-bold">
                             <i class="fab fa-whatsapp me-2"></i>Contactar
                         </a>
                     </div>
@@ -88,7 +88,8 @@
                 <div class="col-lg-5 text-center position-relative" data-aos="zoom-in">
                     <div class="hero-visual-wrapper">
                         <div class="hero-bg-circle"></div>
-                        <img src="img/home.webp" alt="HOME" class="img-fluid profile-img-blended">
+                        <img src="img/home.webp" alt="William Huacoto, desarrollador backend e infraestructura"
+                            class="img-fluid profile-img-blended">
                     </div>
                 </div>
 
@@ -198,7 +199,7 @@
                     </div>
                 </div>
                 <p class="text-secondary-custom lh-lg mb-4 lead fs-6">
-                    Ingeniero de Sistemas en formación (9º semestre). Mi enfoque es <strong>híbrido</strong>: fusiono el
+                    Ingeniero de Sistemas. Mi enfoque es <strong>híbrido</strong>: fusiono el
                     desarrollo <strong>Backend (Java/Python)</strong> con la administración de <strong>redes e
                         infraestructura</strong>.
                 </p>
@@ -246,7 +247,7 @@
                         </p>
 
                         <div class="d-flex gap-2">
-                            <a href="https://youtu.be/p7SBC-uLWjw?si=4B7Cd4VZ8VDchS5-" target="_blank"
+                            <a href="https://youtu.be/p7SBC-uLWjw?si=4B7Cd4VZ8VDchS5-" target="_blank" rel="noopener noreferrer"
                                 class="btn btn-sm btn-dark"><i class="fas fa-play me-2 text-accent"></i>Demo</a>
                         </div>
                     </div>
@@ -275,9 +276,9 @@
                         </p>
 
                         <div class="d-flex gap-2">
-                            <a href="https://github.com/Liam-wh/Hotel" target="_blank"
+                            <a href="https://github.com/Liam-wh/Hotel" target="_blank" rel="noopener noreferrer"
                                 class="btn btn-sm btn-outline-light"><i class="fab fa-github me-2"></i>Código</a>
-                            <a href="https://hotel-rulx.onrender.com" target="_blank" class="btn btn-sm btn-dark"><i
+                            <a href="https://hotel-rulx.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-dark"><i
                                     class="fas fa-play me-2 text-accent"></i>Demo</a>
                         </div>
                     </div>
@@ -297,28 +298,28 @@
                 </div>
 
                 <form id="contactForm" action="https://formsubmit.co/williamhuacotoh@gmail.com" method="POST"
-                    class="card bg-darker p-4 border-0 shadow-lg">
+                    class="contact-form-panel">
 
                     <input type="hidden" name="_subject" value="¡Nuevo mensaje de tu Portafolio!">
                     <input type="hidden" name="_captcha" value="false">
 
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label for="nombre" class="form-label text-white fw-bold small">Tu Nombre</label>
+                            <label for="nombre" class="form-label contact-label">Nombre</label>
                             <input type="text" name="name" id="nombre" class="form-control form-control-dark"
-                                placeholder="Ej. Juan Pérez" required>
+                                placeholder="Tu nombre" required>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="email" class="form-label text-white fw-bold small">Tu Correo (Gmail)</label>
+                            <label for="email" class="form-label contact-label">Correo</label>
                             <input type="email" name="email" id="email" class="form-control form-control-dark"
-                                placeholder="ejemplo@gmail.com" required>
+                                placeholder="tu@email.com" required>
                         </div>
 
                         <div class="col-12">
-                            <label for="mensaje" class="form-label text-white fw-bold small">Mensaje</label>
+                            <label for="mensaje" class="form-label contact-label">Mensaje</label>
                             <textarea name="message" id="mensaje" rows="5" class="form-control form-control-dark"
-                                placeholder="Escribe tu mensaje aquí..." required></textarea>
+                                placeholder="Cuéntame sobre tu idea o proyecto" required></textarea>
                         </div>
 
                         <div class="col-12">
@@ -330,8 +331,8 @@
 
                         <div class="col-12 text-end mt-2">
                             <button type="submit" id="submitBtn"
-                                class="btn btn-accent px-5 py-3 fw-bold shadow-accent-btn">
-                                <i class="fas fa-paper-plane me-2"></i>ENVIAR AHORA
+                                class="btn btn-accent contact-submit-btn fw-bold shadow-accent-btn">
+                                <i class="fas fa-paper-plane me-2"></i>Enviar mensaje
                             </button>
                         </div>
                     </div>
@@ -346,34 +347,34 @@
             <h2 class="fw-bold mb-4">Hablemos</h2>
 
             <div class="d-flex justify-content-center align-items-center gap-4 mb-4 flex-wrap">
-                <a href="https://www.linkedin.com/in/william-huacoto-784056364/" target="_blank" class="social-icon"
+                <a href="https://www.linkedin.com/in/william-huacoto-784056364/" target="_blank" rel="noopener noreferrer" class="social-icon"
                     title="LinkedIn" aria-label="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 <a href="https://wa.me/59163176943?text=Hola%20William,%20vi%20tu%20portafolio%20de%20Ingeniería%20y%20me%20gustaría%20contactarte."
-                    target="_blank" class="social-icon" title="WhatsApp" aria-label="WhatsApp">
+                    target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp" aria-label="WhatsApp">
                     <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="https://t.me/wliamh" target="_blank" class="social-icon" title="Telegram"
+                <a href="https://t.me/wliamh" target="_blank" rel="noopener noreferrer" class="social-icon" title="Telegram"
                     aria-label="Telegram">
                     <i class="fab fa-telegram"></i>
                 </a>
-                <a href="https://instagram.com/wliamhh" target="_blank" class="social-icon" title="Instagram"
+                <a href="https://instagram.com/wliamhh" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram"
                     aria-label="Instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://x.com/wliamhh" target="_blank" class="social-icon" title="X (Twitter)"
+                <a href="https://x.com/wliamhh" target="_blank" rel="noopener noreferrer" class="social-icon" title="X (Twitter)"
                     aria-label="X Twitter">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="https://github.com/Liam-wh" target="_blank" class="social-icon" title="GitHub"
+                <a href="https://github.com/Liam-wh" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"
                     aria-label="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
 
             <div class="mb-4 mt-5">
-                <a class="stealth-link footer-logo-container" href="http://once.lat/" target="_blank">
+                <a class="stealth-link footer-logo-container" href="http://once.lat/" target="_blank" rel="noopener noreferrer">
                     <img src="img/once.webp" alt="Logo Once Platform" class="footer-platform-logo mb-2">
                 </a>
                 <p class="text-secondary-custom small mb-0" style="font-size: 0.8rem; opacity: 0.7;">
@@ -388,20 +389,45 @@
                 </span>
             </div>
 
-            <p class="text-secondary-custom small">© 2026 William Huacoto | Ingeniero en formación</p>
+            <p class="text-secondary-custom small">© <button type="button" id="secretCvTrigger"
+                    class="secret-cv-trigger" aria-label="Acceso privado al CV">2026 William Huacoto</button> |
+                Ingeniero en formación</p>
         </div>
     </footer>
+
+    <div class="modal fade" id="secretCvModal" tabindex="-1" aria-labelledby="secretCvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content secret-modal">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold" id="secretCvModalLabel">Acceso privado</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body pt-3">
+                    <label for="secretCvKey" class="form-label small text-secondary-custom">Clave de descarga</label>
+                    <input type="password" id="secretCvKey" class="form-control form-control-dark text-center"
+                        inputmode="numeric" autocomplete="off" placeholder="----">
+                    <p id="secretCvError" class="secret-error d-none mb-0 mt-2">Clave incorrecta.</p>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" id="secretCvDownload" class="btn btn-accent btn-sm">
+                        <i class="fas fa-lock-open me-1"></i>Descargar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <button id="likeBtn" class="btn-like-floating shadow-lg"
         data-api-url="https://api-likes-once.onrender.com/api/likes" aria-label="Dar like">
         <span id="like-icon-container">
             <i class="fas fa-heart text-accent" id="like-icon"></i>
         </span>
-        <span id="likes-count" class="ms-2 fw-bold">...</span>
+        <span id="likes-count" class="ms-2 fw-bold d-none"></span>
     </button>
 
-    <button id="backToTop" class="btn btn-accent rounded-circle position-fixed bottom-0 end-0 m-4 shadow-lg p-3"
-        style="display: none; z-index: 99;" aria-label="Volver arriba">
+    <button id="backToTop" class="back-to-top-btn" aria-label="Volver arriba">
         <i class="fas fa-arrow-up"></i>
     </button>
 
